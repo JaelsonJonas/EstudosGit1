@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8791ACB6-862B-02B8-80EC-D069595699C1" name="T_RT_VENDEDOR">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:17:42 UTC</createdTime>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_CLIENTE" id="2C0D9A26-7C28-6631-F90C-580E05FF9621">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:18:20 UTC</createdTime>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_NOME " id="48200078-20E2-2410-66F8-96FFD800BE9F">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:18:52 UTC</createdTime>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="821B3BA9-EF6E-5355-38FD-C713DEED32D5" name="T_RT_VENDEDOR PK">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:18:45 UTC</createdTime>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C0D9A26-7C28-6631-F90C-580E05FF9621</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

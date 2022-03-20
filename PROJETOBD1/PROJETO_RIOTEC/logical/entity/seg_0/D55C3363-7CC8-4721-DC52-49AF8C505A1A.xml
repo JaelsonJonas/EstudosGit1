@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D55C3363-7CC8-4721-DC52-49AF8C505A1A" name="T_RT_PRODUTO">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:07:37 UTC</createdTime>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_QUANTIDADE" id="80DFD3DB-EAFF-9EA3-9F50-198638029216">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:08:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Campo que armazena a quanridade do produto no estoque]]></commentInRDBMS>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_MERCADORIA" id="D46423DA-03CE-E9A7-97B9-0BE48DE698F3">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:09:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Campor que armazena o nome da mercadoria ]]></commentInRDBMS>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_PRODUTO" id="B69A8D70-A04D-91F3-B520-E33126FF6AE0">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:10:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Campo que armazena o ID do produto]]></commentInRDBMS>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TOTAL" id="B021B1DB-8763-0621-ACDF-4B2EB7CAD8F1">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:12:24 UTC</createdTime>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_DESC_PRODUTO" id="E21B1CCB-0FDF-5FF2-4D70-DA8967D3E80D">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:13:01 UTC</createdTime>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_CLIENTE" id="CAD34824-2520-4E2C-2316-6E2B3A5219EA">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:24:26 UTC</createdTime>
+<generatorID>06A49906-91B4-B15B-49F4-74E85286B003</generatorID>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<referedAttribute>E3B78A21-1B5B-6345-DF35-17FB6A79F6B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2370E54-3F7C-8414-1F61-27986A3971B5" name="T_RT_PRODUTO PK">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:11:16 UTC</createdTime>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B69A8D70-A04D-91F3-B520-E33126FF6AE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

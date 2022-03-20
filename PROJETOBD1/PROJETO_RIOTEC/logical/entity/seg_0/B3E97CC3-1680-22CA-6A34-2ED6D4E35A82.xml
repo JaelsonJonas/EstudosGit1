@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3E97CC3-1680-22CA-6A34-2ED6D4E35A82" name="T_RT_FILIAL">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:14:29 UTC</createdTime>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_FILIAL" id="840DADEB-45BD-C274-F3F2-64A90E7AE2E2">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:15:25 UTC</createdTime>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CNPJ" id="1B5703E1-9E67-7E3F-6C7B-EE8D475E88C7">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:15:52 UTC</createdTime>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TELEFONE" id="92FEFB08-E897-6520-D963-ACC1B1434E94">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:16:35 UTC</createdTime>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CELULAR" id="B859EBA6-16EB-3827-417F-E4251EEACE05">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:17:09 UTC</createdTime>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5FE6F8E7-FD12-6DBD-9EA5-3ABC247E30B1" name="T_RT_FILIAL PK">
+<createdBy>JaelsonSantos</createdBy>
+<createdTime>2022-03-20 21:15:50 UTC</createdTime>
+<ownerDesignName>PROJETO_RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="2D5C966D-DEF4-6163-75F7-D230081C6853" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>840DADEB-45BD-C274-F3F2-64A90E7AE2E2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
